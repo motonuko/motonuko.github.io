@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '3rem'
+  spacing: '4rem'
 
 sections:
   - block: resume-biography-3
@@ -59,6 +59,10 @@ sections:
           - project
     design:
       view: article-grid
-      columns: 2
+      fill_image: false
+      columns: 3
+      show_date: false
+      show_read_time: false
+      show_read_more: false
 
 ---
