@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Alex Johnson
+title: Tomoya Okuno
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Tomoya
+last_name: Okuno
 
 # Pronouns (optional)
-pronouns: he/him
+# pronouns: he/him
 
 # Status emoji
 status:
@@ -23,147 +23,159 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: PhD Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Computational Systems Biology Lab. (Nara Institute of Science and Technology)
+    url: https://isw3.naist.jp/Research/ai-csb-en.html
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  # - icon: at-symbol
+  #   url: 'mailto:alex.johnson@meta.com'
+  #   label: E-mail Me
+  # - icon: brands/x
+  #   url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/motonuko
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/motonuko/
+  - icon: devicon/kaggle
+    url: https://www.kaggle.com/octlog
+  - icon: hero/pencil
+    url: https://qiita.com/1d7678174656
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-1825-0097
 
-interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+# interests:
+#   - Machine learning for molecular biology and chemistry
+#   - Software development
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: PhD in Science and Technology (Program of Data Science)
+    institution: Nara Institute of Science and Technology
+    date_start: 2025-04-01
+    # date_end: 2028-03-31
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com/thesis.pdf'
+  - area: M.Eng in Science and Technology (Program of Data Science)
+    institution: Nara Institute of Science and Technology
+    date_start: 2023-04-01
+    date_end: 2025-03-31
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      GPA: 3.4/4.0
+  - area: M.Eng in Information Science and Technology (NOT COMPLETED)
+    institution: The University of Osaka
+    date_start: 2019-04-01
+    date_end: 2021-09-30
+  - area: BS in Physics and Applied Physics
+    institution: Kansai University
+    date_start: 2015-04-01
+    date_end: 2019-03-31
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      GPA: 3.3/4.0
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Software Engineer (mobile app.)
+    company_name: teamLab Engineering 
     company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2021-09-01  # 日付が不明
+    date_end: 2022-08-31 # 日付が不明
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+      Full-time
+  - position: Software Engineer (mobile app.)
+    company_name: teamLab 
+    # company_url: 'https://'
+    company_logo: ''
+    date_start: 2022-09-01 # 日付が不明
+    date_end: 2024-08-31
+    summary: |
+      Part-time
+  - position: Software Engineer (mobile app.)
+    company_name: teamLab Engineering 
+    # company_url: 'https://'
+    company_logo: ''
+    date_start: 2024-09-01
+    date_end: 2025-07-18
+    summary: |
+      Part-time
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Machine Learning & AI
     items:
-      - name: Python & PyTorch
+      - name: Python
         description: ''
-        percent: 95
         icon: code-bracket
-      - name: Machine Learning
+      - name: PyTorch
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+        icon: code-bracket
+      - name: Hugging Face
         description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+        icon: code-bracket
+  - name: Mobile Development
     items:
-      - name: Hiking in the Rockies
+      - name: Kotlin
         description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+        icon: code-bracket
+      - name: Dart/Flutter
         description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: code-bracket
+      - name: Android SDK
         description: ''
-        percent: 70
-        icon: book-open
+        icon: code-bracket
+  # - name: Hobbies
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Hiking in the Rockies
+  #       description: ''
+  #       percent: 80
+  #       icon: person-simple-walk
+  #     - name: Building Custom PCs
+  #       description: ''
+  #       percent: 90
+  #       icon: cpu-chip
+  #     - name: Sci-Fi Reading
+  #       description: ''
+  #       percent: 70
+  #       icon: book-open
 
 languages:
-  - name: English
+  - name: Japanese
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: English
+    percent: 70
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+# awards:
+#   - title: Best Paper Award
+#     url: https://neurips.cc/
+#     date: '2022-12-01'
+#     awarder: NeurIPS
+#     icon: hero/trophy
+#     summary: |
+#       Awarded for groundbreaking work on efficient training of large models.
+#   - title: AI Innovation Grant
+#     url: https://www.nsf.gov/
+#     date: '2021-06-15'
+#     awarder: National Science Foundation
+#     icon: hero/currency-dollar
+#     summary: |
+#       $500,000 grant for research in ethical AI development.
+#   - title: Outstanding PhD Thesis
+#     url: https://www.stanford.edu/
+#     date: '2019-06-30'
+#     awarder: Stanford University
+#     icon: hero/academic-cap
+#     summary: |
+#       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Tomoya Okuno is a PhD student at Nara Institute of Science and Technology, where he develops advanced machine learning models for understanding proteins and molecular systems. His research leverages language-inspired approaches to uncover insights into biological and chemical structures and functions. He is passionate about creating software tools that empower researchers and creators.
